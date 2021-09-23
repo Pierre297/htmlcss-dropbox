@@ -1,0 +1,111 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container_center {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* HEADER */
+
+header {
+  height: 80px;
+  line-height: 80px;
+  background-color: burlywood;
+}
+
+#lista_nav1 li {
+  list-style-type: none;
+  display: inline;
+  margin: 30px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+#lista_nav2 li {
+  list-style-type: none;
+  display: inline;
+  margin: 30px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+#lista_nav1 {
+  float: left;
+  display: table;
+  margin: 0 auto;
+  margin-left: 60px;
+}
+
+#lista_nav2 {
+  float: right;
+  display: table;
+  margin: 0 auto;
+  margin-right: 45px;
+}
+
+.logo {
+  float: left;
+  margin-left: 30px;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0061fe;
+  padding: 16px 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: rgba(49, 97, 224, 255);
+}
+
+.btn {
+  margin-right: 100px;
+}
+
+#inizia {
+  float: right;
+}
+
+#inizia .btn {
+  padding: 9px 23px;
+  background-color: #0061fe;
+  font-size: 20px;
+  color: white;
+  display: inline;
+}
+
+#inizia .btn:hover {
+  color: rgba(49, 97, 224, 255);
+}
+
+/* SECTION 1 */
+
+#jumbotron {
+  background-color: #b4c8e1;
+}
