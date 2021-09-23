@@ -25,7 +25,7 @@ body {
 header {
   height: 80px;
   line-height: 80px;
-  background-color: burlywood;
+  background-color: white;
 }
 
 #lista_nav1 li {
@@ -106,6 +106,51 @@ header {
 
 /* SECTION 1 */
 
-#jumbotron {
+.jumbotron {
   background-color: #b4c8e1;
+  height: 0 auto;
+  padding: 120px 0;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 97px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron .colsx {
+  float: left;
+}
+
+.jumbotron .coldx {
+  float: right;
+}
+
+.jumbotron p {
+  width: 471px;
+  padding-top: 60px;
+}
+
+/* BOTTONE prova gratuita */
+#prova {
+  margin-top: 45px;
+}
+
+/* ARROW */
+
+#arrow {
+  font-size: 73px;
+}
+
+#jumboimg {
+  width: 912px;
+  height: auto;
+  padding-top: 60px;
 }
