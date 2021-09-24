@@ -298,3 +298,39 @@ h1 {
   margin-left: 20px;
   margin-top: 45px;
 }
+
+/* SEZIONE 3 IMMAGINE E TESTO */
+
+.section3 {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.section3 img {
+  width: 700px;
+  height: auto;
+  margin-top: 150px;
+}
+
+.section3 #text_col_dx {
+  height: auto;
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+#text_col_dx p {
+  margin-top: 40px;
+}
+
+/* BOTTONE PARTNER */
+
+.btn_partner {
+  display: inline-block;
+  background-color: white;
+  padding: 16px 32px;
+  color: black;
+  text-decoration: none;
+  border: solid 1px black;
+  margin-top: 40px;
+}
