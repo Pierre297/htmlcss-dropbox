@@ -160,7 +160,7 @@ h1 {
 }
 
 /* BOTTONE prova gratuita */
-#prova {
+.prova {
   margin-top: 45px;
 }
 
@@ -178,7 +178,7 @@ h1 {
 
 /* SECTION 2 */
 
-.main_center h2 {
+.title_h2 {
   font-size: 50px;
   margin-top: 80px;
 }
@@ -268,13 +268,33 @@ h1 {
 
 #team_table {
   width: 100%;
-  min-height: 600px;
+  min-height: 300px;
   float: left;
   margin-top: 40px;
   border: solid 1px gray;
 }
 
-#team {
-  text-align: center;
-  margin: 20px;
+.colsx {
+  float: left;
+}
+
+.coldx {
+  float: right;
+}
+
+#team_table h2 {
+  margin-top: 45px;
+  font-size: 45px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+#team_table strong {
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+
+#text_enterprise {
+  margin-left: 20px;
+  margin-top: 45px;
 }
