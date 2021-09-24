@@ -9,9 +9,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container_center {
-  width: 80%;
+.jumbo_center {
+  width: 85%;
   margin: 0 auto;
+}
+
+.main_center {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
 }
 
 .clearfix::after {
@@ -153,4 +159,28 @@ h1 {
   width: 912px;
   height: auto;
   padding-top: 60px;
+}
+
+/* SECTION 2 */
+
+.main_center h2 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+
+#radio {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* COLONNE */
+
+.side_element {
+  width: calc(100% / 3 - 20px);
+  min-height: 500px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 40px;
+  border: solid 1px black;
 }
