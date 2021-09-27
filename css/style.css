@@ -415,6 +415,23 @@ h1 {
   border: solid 1px black;
   margin-top: 100px;
 }
+
+/* SEZIONE FAQ */
+.faq_h2 h2 {
+  font-size: 37px;
+  margin-top: 147px;
+  margin-bottom: 40px;
+}
+
+.faq {
+  line-height: 55px;
+  font-size: 23px;
+}
+
+.faq_last {
+  margin-bottom: 120px;
+}
+
 /* FOOTER */
 
 footer {
@@ -466,6 +483,7 @@ li span {
 
 .fa-globe-asia {
   color: gray;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 900;
   margin-left: 170px;
 }
