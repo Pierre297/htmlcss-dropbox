@@ -36,6 +36,9 @@ header {
   height: 80px;
   line-height: 80px;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 #lista_nav1 li {
@@ -44,6 +47,14 @@ header {
   margin: 30px;
   margin-bottom: 20px;
   vertical-align: middle;
+}
+
+#lista_nav1 a {
+  text-decoration: none;
+}
+
+#lista_nav2 a {
+  text-decoration: none;
 }
 
 #lista_nav2 li {
@@ -134,16 +145,23 @@ header {
 .jumbotron {
   background-color: #b4c8e1;
   height: 0 auto;
-  padding: 120px 0;
 }
 
-.center {
+.jumbo_center {
   width: 80%;
   margin: 0 auto;
 }
 
+.jumbotron .jumbo_center {
+  width: 90%;
+  max-width: 1320px;
+  position: relative;
+  bottom: -70px;
+}
+
 h1 {
-  font-size: 97px;
+  font-size: 72px;
+  padding-top: 80px;
 }
 
 .jumbotron p {
@@ -171,7 +189,7 @@ h1 {
 /* ARROW */
 
 #arrow {
-  font-size: 73px;
+  font-size: 53px;
 }
 
 #jumboimg {
@@ -184,7 +202,7 @@ h1 {
 
 .title_h2 {
   font-size: 50px;
-  margin-top: 80px;
+  margin-top: 184px;
 }
 
 #radio {
