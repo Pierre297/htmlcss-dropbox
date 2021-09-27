@@ -365,3 +365,67 @@ h1 {
 .caselle p {
   font-size: 17px;
 }
+
+#team_dropbox h2 {
+  margin-top: 160px;
+  font-size: 50px;
+}
+
+#link_team {
+  margin: 20px 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  height: 480px;
+}
+
+/* LISTA */
+
+.liste {
+  margin: 0 auto;
+  float: left;
+  margin-left: 167px;
+}
+
+.liste h3 {
+  margin-top: 30px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.liste ul {
+  margin-bottom: 100px;
+}
+
+.liste li {
+  color: black;
+  margin-bottom: 10px;
+}
+
+li span {
+  color: white;
+}
+
+/* LINGUE */
+
+#lingue hr {
+  color: white;
+  margin-bottom: 40px;
+  width: 6%;
+  margin-left: 158px;
+}
+
+#lingue span {
+  color: gray;
+  cursor: pointer;
+}
+
+.fa-globe-asia {
+  color: gray;
+  font-size: 25px;
+  margin-left: 170px;
+}
