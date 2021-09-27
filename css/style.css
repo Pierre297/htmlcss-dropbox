@@ -375,6 +375,28 @@ h1 {
   margin: 20px 0;
 }
 
+/* SEZIONE AZIENDA */
+
+#azienda {
+  background-color: #b4c8e1;
+  height: 300px;
+}
+
+#azienda h2 {
+  color: hsl(336deg 85% 21%);
+  font-size: 45px;
+  margin-top: 100px;
+}
+
+.btn_azienda {
+  display: inline-block;
+  background-color: white;
+  padding: 16px 32px;
+  color: black;
+  text-decoration: none;
+  border: solid 1px black;
+  margin-top: 100px;
+}
 /* FOOTER */
 
 footer {
