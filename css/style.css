@@ -393,7 +393,101 @@ h1 {
   margin: 20px 0;
 }
 
-/* SEZIONE AZIENDA */
+/* SEZIONE AZIENDE */
+
+.col_clienti {
+  float: left;
+}
+
+.business {
+  width: 70%;
+  margin: 110px auto 0px;
+  height: auto;
+}
+
+.company {
+  width: 100%;
+  margin: 30px auto 0p;
+  height: auto;
+}
+
+.colonne_aside {
+  width: 32%;
+  height: 407px;
+}
+
+.grey {
+  width: 36%;
+  background-color: hsl(0deg 0% 96%);
+  height: 408px;
+}
+
+.square {
+  width: 50%;
+  float: left;
+  height: 204px;
+}
+
+.designit {
+  background-color: hsl(113deg 39% 72%);
+}
+
+.arizona {
+  background-color: hsl(336deg 85% 21%);
+}
+
+.university {
+  background-color: hsl(197deg 100% 40%);
+}
+
+.topps {
+  background-color: hsl(0deg 100% 55%);
+}
+
+.world {
+  background-color: hsl(0deg 100% 55%);
+}
+
+.hearst {
+  background-color: hsl(207deg 52% 81%);
+}
+
+.lonely {
+  background-color: hsl(228deg 82% 28%);
+}
+
+.channel {
+  background-color: hsl(49deg 100% 59%);
+}
+
+.col_centrale {
+  width: 159px;
+  margin: 54px;
+}
+
+.grey p {
+  margin: 0px 54px 46px;
+}
+
+.grey span {
+  margin-left: 54px;
+}
+
+.center_company {
+  margin: 78px 46px;
+  width: 150px;
+  filter: invert(1);
+  vertical-align: middle;
+}
+
+.center_company2 {
+  margin: 50px;
+  width: 150px;
+  filter: invert(1);
+  vertical-align: middle;
+}
+
+/* SEZIONE AZIENDA 2 */
 
 #azienda {
   background-color: #b4c8e1;
