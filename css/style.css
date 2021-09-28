@@ -251,7 +251,7 @@ h1 {
 }
 
 .prova_col .btn_col {
-  padding: 9px 80px;
+  padding: 9px 36px;
   background-color: #0061fe;
   font-size: 17px;
   color: white;
@@ -327,12 +327,14 @@ h1 {
 }
 
 .section3 img {
-  width: 700px;
+  width: 513px;
   height: auto;
-  margin-top: 150px;
+  margin-top: 205px;
+  margin-bottom: 150px;
 }
 
 .section3 #text_col_dx {
+  width: 441px;
   height: auto;
   margin-top: 200px;
   font-size: 20px;
@@ -359,23 +361,23 @@ h1 {
 .caselle h2 {
   margin-top: 70px;
   font-size: 47px;
+  margin-bottom: 42px;
 }
 
 .side_element2 {
   width: calc(100% / 3 - 30px);
   min-height: 600px;
   float: left;
-  margin-top: 40px;
   margin-left: 30px;
 }
 
 .img_caselle {
-  width: 412px;
+  width: 264px;
   height: auto;
 }
 
 .caselle h3 {
-  font-size: 34px;
+  font-size: 27px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -384,16 +386,21 @@ h1 {
   font-size: 17px;
 }
 
+/* SEZIONE AZIENDE */
+
 #team_dropbox h2 {
-  margin-top: 160px;
+  margin-top: 74px;
   font-size: 50px;
+  margin-bottom: 30px;
 }
 
 #link_team {
   margin: 20px 0;
 }
 
-/* SEZIONE AZIENDE */
+#team_dropbox a {
+  margin-bottom: 40px;
+}
 
 .col_clienti {
   float: left;
@@ -407,7 +414,8 @@ h1 {
 
 .company {
   width: 100%;
-  margin: 30px auto 0p;
+  margin: 30px auto 0;
+  margin-top: 71px;
   height: auto;
 }
 
@@ -513,7 +521,7 @@ h1 {
 /* SEZIONE FAQ */
 .faq_h2 h2 {
   font-size: 37px;
-  margin-top: 147px;
+  margin-top: 71px;
   margin-bottom: 40px;
 }
 
@@ -539,7 +547,7 @@ footer {
 .liste {
   margin: 0 auto;
   float: left;
-  margin-left: 167px;
+  margin-left: 125px;
 }
 
 .liste h3 {
